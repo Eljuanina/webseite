@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: events
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Veranstaltungen und Lehre
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [events, lehre]
 horizontal: false
 ---
 
