@@ -1,183 +1,224 @@
 cv:
-  name: Albert Einstein
-  headline: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Nils Handler
+  headline: Environmental Economist
+  email: nils.handler@uzh.ch
+  location: Zurich, Switzerland
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: nils-handler-34b84567
+    - network: ResearchGate
+      username: Nils-Handler
 
   sections:
-    Summary:
-      - A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Berlin School of Economics
+        location: Berlin, Germany
+        area: Economics
+        studyType: PhD Candidate
+        start_date: 2019-10
+        end_date: 2026-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - Structured economics PhD, intake below 4%, fully funded
+          - Focus on Environmental Economics, Technological Change and Energy Transition
+          - "Committee: [Marion Dumas (LSE)](https://www.lse.ac.uk/granthaminstitute/profile/marion-dumas/), [Ottmar Edenhofer (TU Berlin)](https://www.pik-potsdam.de/de/personen/direktorium/professor-dr-ottmar-edenhofer), [Jan Steckel (TUM)](https://www.pik-potsdam.de/members/steckel/homepage-de)"
+          - "Research fellow at MIT Sloan School of Management (3 months, academic host Prof. [Jacquelyn Pless](https://jacquelynpless.com/))"
+          - "[Research fellow at the Grantham Research Institute on Climate Change, LSE](https://www.lse.ac.uk/granthaminstitute/profile/nils-handler/) (1 year)"
+          - Research fellow at Imperial College London (1 year, remotely)
+          - Fellow Innovation Growth Lab (since 2025), seed grant (US$5k, 2026)
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Barcelona Graduate School of Economics
+        location: Barcelona, Spain
+        area: International Trade, Finance and Development
+        studyType: MSc
+        start_date: 2017-09
+        end_date: 2018-07
+
+      - institution: London School of Economics and Political Science (LSE)
+        location: London, UK
+        area: Political Economy of Late Development
+        studyType: MSc
+        start_date: 2011-09
+        end_date: 2012-09
         highlights:
-          - Description 1.
-          - Description 2.
+          - Distinction, top 5%
+
+      - institution: University of Tübingen
+        location: Tübingen, Germany
+        area: International Economics and American Studies
+        studyType: BSc
+        start_date: 2007-10
+        end_date: 2011-07
+        highlights:
+          - Exchange year at Universidade de São Paulo, Brazil (2009 to 2010)
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
+      - company: Office of the President, University of Zurich
+        position: Project Leader Climate Neutrality
         location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2024-08
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Built and lead an evidence-based decarbonization agenda, budget CHF 1.2M, leading five data scientists
+          - Developed the concept for the world's first university buyers club for durable carbon dioxide removal (CDR)
+          - Built a strategic partnership with Terralytiq for AI-supported product carbon footprinting and assessed the emissions impact of AI applications at the institution
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: External Consultant (remote)
+        position: BMW Foundation and Breakthrough Energy
+        start_date: 2024-04
+        end_date: 2024-07
+        highlights:
+          - "BMW Foundation: developed thematic strategy on energy resilience, delivered 10+ concept papers and storylines to the new leadership team, supported global trade dialogue with Columbia University"
+          - "Breakthrough Energy: led economic modelling for the report [Investing in Net Zero: Assessing Germany's venture capital potential in climate tech until 2030](https://techfornetzero.org/en/investing-in-net-zero-assessing-germanys-venture-capital-potential-in-climate-tech/)"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Federal Institute for Geosciences and Natural Resources (BGR)
+        position: Economist and Project Manager, International Cooperation Program
+        location: Hannover, Germany
+        start_date: 2018-09
+        end_date: 2021-06
+        highlights:
+          - "Modelled US$6.5B in climate-critical mineral procurement spend and [built Tableau-recognised analytics infrastructure](https://www.tableau.com/solutions/customer/bgr-opens-local-value-creation-potential-african-copper-and-cobalt-mining-using)"
+          - LION tool presented to the Ministry of Mines Permanent Secretary and the German Ambassador, triggering a cabinet briefing
+          - Coordinated stakeholders across Africa and Europe, led World Bank and OECD Natural Resource Policy Dialogue
+
+      - company: World Bank
+        position: Economist working on Energy, Trade and Competitiveness, various Global Practices
+        location: Washington D.C., USA
+        start_date: 2014-12
+        end_date: 2023-06
+        highlights:
+          - "Led Mining Investment and Governance Review (MInGov): managing engagements and quality control"
+          - Organised global conference (budget above US$200K), mapped green competitiveness policies across 25+ countries
+          - "Drafted [DRC Economic Memorandum](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099101723140732664) covering entrepreneurial ecosystem, skills mapping and EV value-chain analysis"
+
+      - company: Inter-American Development Bank (IADB)
+        position: Junior Economist and Carlo Schmid Fellow
+        location: Washington D.C., USA
+        start_date: 2012-09
+        end_date: 2014-11
+        highlights:
+          - Quantitative and qualitative research on fiscal decentralisation and extractive industry revenue, 10+ publications
+          - Participated in Board Meetings, briefed Governors via constituency report for the IDB Annual Meeting
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Entrepreneurial ecosystems, economic complexity, and venture-oriented entrepreneurship in German regions
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - "*Nils Handler*"
+          - M. Brachert
+        journal: Small Business Economics
+        date: 2026
+        doi: 10.1007/s11187-026-01278-5
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Informing net-zero policies in the European Union with evidence-based approaches
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - "*Nils Handler*"
+          - A. Löschel
+          - M. Braun
+          - V. Grimm
+        journal: Nature Reviews Clean Technology
+        date: 2025
+        url: https://www.nature.com/articles/s44359-025-00063-z
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Stranded nations? Transition risks and opportunities towards a clean economy"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - P. Andres
+          - P. Mealy
+          - "*Nils Handler*"
+          - S. Fankhauser
+        journal: Environmental Research Letters
+        date: 2023
+        url: https://www.smithschool.ox.ac.uk/news/stranded-nations-research-reveals-countries-could-be-left-behind-net-zero-transition
+
+      - title: "Randomised controlled trials: Can they inform the development of green innovation policies in the UK?"
+        authors:
+          - S. Esin
+          - "*Nils Handler*"
+          - L. Morey
+          - A. Munjal
+        journal: Policy insight, Grantham Research Institute on Climate Change and the Environment, LSE
+        date: 2022
+        url: https://www.lse.ac.uk/granthaminstitute/publication/randomised-controlled-trials-can-they-inform-the-development-of-green-innovation-policies-in-the-uk/
+
+    Work in Progress:
+      - name: "Relatedness and Regional Development in Germany: Evidence on Skills, Technologies, Industries, and Complexity"
+        summary: Handler, N., Brachert, M., Kubis, A. (R&R Research Policy)
+      - name: "Reducing emissions in the laboratory: Evidence from a randomized evaluation of a sustainable practice and accreditation scheme"
+        summary: Handler, N., Rutnam, D., Harrington Ruiz, N.
+      - name: "Unlocking Innovation: Experimental Evidence on Barriers to Public R&D Funding Uptake"
+        summary: Handler, N.
+      - name: "Growing Clean? Directing Technological Change in Germany"
+        summary: Handler, N., Brachert, M.
+      - name: Modeling the impact of IT- and AI-related emissions in a university setting
+        summary: Poletto, M., Handler, N.
+
+    Seminar Presentations:
+      - name: Conference on Field Experiments in Strategy (CFXS)
+        summary: "07/2026"
+      - name: Regis Summer School with Prof. Gaétan de Rassenfosse
+        summary: "06/2026"
+      - name: AFID User Workshop, ZEW Mannheim
+        summary: "04/2026"
+      - name: Institut d'Economia de Barcelona, Universitat de Barcelona
+        summary: "2026"
+      - name: DRUID Innovation PhD Workshop, Aarhus (2026) and DRUID conference, Lisbon (2024)
+        summary: "2024, 2026"
+      - name: Innovation Growth Lab (virtual, twice) and Amsterdam Workshop
+        summary: "2020, 2025"
+      - name: ifo Workshop, Fürth
+        summary: "2025"
+      - name: Harvard Growth Lab
+        summary: "2023, 2024"
+      - name: European Union Joint Research Centre, Sevilla
+        summary: "2024"
+      - name: Advances in Field Experiments, Chicago
+        summary: "2023, 2026"
+      - name: WICK10, Turin
+        summary: "2023"
+
+    Teaching and Supervision:
+      - name: "Energy Data Lab: leveraging RCTs for Campus Decarbonization"
+        summary: Secured CHF 30k UZH funding (2025, 2026)
+      - name: HEC Paris, Lecturer, MBA Climate and Business Certificate
+        summary: Climate Policy and Green Growth (2023)
+      - name: ETH Zurich, HEC and Hertie School Berlin
+        summary: Executive trainings on energy policy (2023, 2024, 2025)
+      - name: MSc Dissertation Supervision
+        summary: Nigel Yao (Oxford, distinction), Lewis Morrey (LSE), Apurva Munjal (LSE)
+
+    Reviewing Activity:
+      - name: Research Policy
+        summary: Reviewer
+
+    Awards:
+      - name: Hans Weisser Fellowship
+        summary: "2023. US research stay and academic networking on the East and West Coast on how to leverage field experiments for more evidence-based climate policies"
+      - name: "[Young Global Changer](https://www.global-solutions-initiative.org/young-global-changers/alumni/class-of-2022/), Global Solutions Initiative"
+        summary: "2022"
+      - name: Energy Transition PhD Fellowship, Academic Merit Foundation of German Businesses
+        summary: "2020 to 2024"
+      - name: Scholarship, Academic Merit Foundation of German Protestant Churches
+        summary: "2009 to 2012"
+
+    Trainings:
+      - name: Electricity Markets (Lion Hirth)
+        summary: "2024"
+      - name: "Using Text as Data: Methods and Applications, Barcelona School of Economics"
+        summary: "2022"
+      - name: Economic Foundations for Energy and Climate Policy, DIW Berlin
+        summary: "2019"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Data Analysis
+        keywords: "STATA, R, Python, oTree, Qualtrics, Matlab, Tableau, MS Excel"
 
     Languages:
       - name: German
-        summary: "Native speaker"
-
+        summary: Native
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: C2
+      - name: Spanish
+        summary: C2
+      - name: Portuguese
+        summary: C2
+      - name: French
+        summary: B1
