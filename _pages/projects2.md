@@ -37,7 +37,7 @@ lectures:
     url: https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung10.html
 ---
 
-<!-- Version 2: events as before, each lecture as its own card linking to its recap -->
+<!-- Version 2: events as in version 1, each lecture as its own card linking to its recap -->
 <div class="projects">
 {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
@@ -46,22 +46,41 @@ lectures:
   <div class="row row-cols-1 row-cols-md-2">
   {% if category == "lectures" %}
     {% for lecture in page.lectures %}
-      <div class="col">
-        <a href="{{ lecture.url }}" target="_blank">
-          <div class="card h-100 hoverable">
-            <div class="card-body">
-              <h2 class="card-title">{{ lecture.title }}</h2>
-              <p class="card-text">{{ lecture.speakers }}</p>
-              <p class="card-text" style="font-style:italic">{{ page.lecture_series }}</p>
-            </div>
+    <div class="col mb-4">
+      <a href="{{ lecture.url }}" target="_blank">
+        <div class="card h-100 hoverable">
+          <div class="card-body">
+            <h2 class="card-title">{{ lecture.title }}</h2>
+            <p class="card-text" style="font-style:italic;margin-bottom:0.6rem">{{ page.lecture_series }}</p>
+            <p class="card-text" style="font-size:0.9rem;margin-bottom:0">{{ lecture.speakers }}</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
+    </div>
     {% endfor %}
   {% else %}
     {% assign sorted_projects = site.projects | where: "category", category | sort: "importance" %}
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    <div class="col mb-4">
+      <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+        <div class="card h-100 hoverable">
+          {% if project.img %}
+            {% include figure.liquid loading="eager" path=project.img sizes="400px" alt="event thumbnail" class="card-img-top" %}
+          {% endif %}
+          <div class="card-body">
+            <h2 class="card-title">{{ project.title }}</h2>
+            <p class="card-text" style="font-style:italic;margin-bottom:0.6rem">{{ project.description }}</p>
+            {% if project.panels %}
+              <ul class="card-text" style="padding-left:1.1rem;margin-bottom:0;font-size:0.9rem">
+              {% for panel in project.panels %}
+                <li>{{ panel }}</li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      </a>
+    </div>
     {% endfor %}
   {% endif %}
   </div>
