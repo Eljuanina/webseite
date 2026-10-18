@@ -1,9 +1,13 @@
 ---
 layout: page
 title: Evidence-Based Policy-Making
-description: Workshop zu Innovation, Gesundheit und Umsetzung, Hertie School Berlin
+description: Workshop on innovation, health and implementation, Hertie School Berlin
 importance: 1
 category: events
+panels:
+  - "Session I: Experimental Innovation Policy"
+  - "Session II: Evidence-Based Healthcare and Science Policy"
+  - "Session III: Putting Things into Practice: Ministries on the Move"
 ---
 
 How can governments design better policies through experimental evidence, and how can Germany and the EU build a culture of policy learning? This one-day workshop brought together economists, policymakers and practitioners to discuss how randomized controlled trials and quasi-experimental methods can improve the design and evaluation of public policy, with a focus on climate, innovation and healthcare.
@@ -38,4 +42,4 @@ Organized by the [d\carb future economy forum](https://www.decarb.world/), with 
   </div>
 </div>
 
-[Zur Event-Seite](https://www.decarb.world/events/workshop-evidence-based-policy-making)
+[Event page](https://www.decarb.world/events/workshop-evidence-based-policy-making)

@@ -1,9 +1,11 @@
 ---
 layout: page
 title: "From Rocks to Renewables: The Mineral Backbone of Clean Energy"
-description: Panel zu kritischen Rohstoffen und Energiewende, 8. Oktober 2024
+description: Panel on critical minerals and the energy transition, 8 October 2024
 importance: 3
 category: events
+panels:
+  - "Panel with Gracelin Baskaran (CSIS), Simona Iammarino (University of Cagliari) and Osmel Manzano (Georgetown University)"
 ---
 
 Electric vehicles, wind and solar power all need more critical minerals such as lithium and copper. This panel discussed how extractive industries can support the energy transition instead of becoming its bottleneck, and whether mineral supply could limit green growth and green innovation.
@@ -18,4 +20,4 @@ Speakers were Gracelin Baskaran (CSIS), Simona Iammarino (University of Cagliari
   </div>
 </div>
 
-[Zur Event-Seite](https://www.decarb.world/events/critical-minerals)
+[Event page](https://www.decarb.world/events/critical-minerals)

@@ -1,13 +1,17 @@
 ---
 layout: page
-title: "Wahl-Spezial 2025: Wohin steuert die Klimapolitik?"
-description: Online-Diskussion mit der Jungen Union, SPD.Klima.Gerecht und Grüner Jugend, 30. Januar 2025
+title: "Election Special 2025: Where Is Climate Policy Heading?"
+description: Online discussion ahead of the 2025 German federal election, 30 January 2025
 importance: 2
 category: events
+panels:
+  - "Online panel with Junge Union, SPD.Klima.Gerecht and Grüne Jugend"
 ---
 
-Klimaschutz ist in den Monaten vor der Bundestagswahl 2025 zunehmend aus dem Fokus der öffentlichen Debatte geraten. In dieser Online-Diskussion ging es darum, wie dringend der Handlungsbedarf ist, welche Massnahmen Vorrang haben sollten, wie sich Klimapolitik ganzheitlich gestalten lässt und wie internationale Zusammenarbeit gestärkt werden kann.
+Original title: «Wahl-Spezial 2025: Wohin steuert die Klimapolitik?»
 
-Zu Gast waren Vertreter:innen der Jungen Union, von SPD.Klima.Gerecht und der Grünen Jugend.
+In the months before the 2025 German federal election, climate protection had increasingly slipped out of the focus of public debate. This online discussion asked how urgent the need for action is, which measures should take priority, how climate policy can be designed holistically and how international cooperation can be strengthened.
 
-[Zur Event-Seite](https://www.decarb.world/events/wahl-spezial)
+Guests were representatives of Junge Union, SPD.Klima.Gerecht and Grüne Jugend.
+
+[Event page](https://www.decarb.world/events/wahl-spezial)

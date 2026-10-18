@@ -1,51 +1,37 @@
 ---
 layout: page
 title: "Beyond Carbon: Debating the Future"
-description: Ringvorlesung an der Universität Zürich, Frühjahrssemester 2026
+description: Public lecture series at the University of Zurich, spring semester 2026
 importance: 1
-category: lehre
+category: lectures
+panels:
+  - "1. Clean Comparative Advantage: How Countries can benefit from Decarbonisation"
+  - "2. How Can Aviation Emissions Be Reduced Most Effectively?"
+  - "3. Is Environmentalism a New Religion?"
+  - "4. Think Negative: Carbon Dioxide Removal and Carbon Offsets"
+  - "5. Riding down the Learning Curve for Clean Technologies"
+  - "6. Field Experiments for Net Zero"
+  - "7. The Power of Procurement"
+  - "8. Green Finance"
+  - "9. Greening Growth, Carbon Pricing, Carbon Dioxide Removal"
 ---
 
-Die Ringvorlesung «Beyond Carbon: Debating the Future» fand im Frühjahrssemester 2026 an der Universität Zürich statt, in Kooperation mit dem [d\carb future economy forum](https://www.decarb.world/). In neun Sitzungen diskutierten Fachleute aus Wissenschaft, Politik und Wirtschaft zentrale Fragen der Dekarbonisierung, von grünem Wachstum über CO2-Entnahme bis zu Green Finance.
+The public lecture series «Beyond Carbon: Debating the Future» took place at the University of Zurich in the spring semester 2026, in cooperation with the [d\carb future economy forum](https://www.decarb.world/). In nine sessions, experts from academia, policy and business debated key questions of decarbonization, from green growth and aviation emissions to carbon removal and green finance.
 
-Zu jeder Sitzung gibt es auf der Webseite der UZH einen Rückblick mit Beschreibung, Kurzportraits der Gäste und teilweise Videoaufzeichnungen.
+## Sessions
 
-## Sitzungen
+| # | Session | Speakers | |
+|---|---------|----------|---|
+| 1 | **Clean Comparative Advantage: How Countries can benefit from Decarbonisation** | Laura Anadon (University of Cambridge), Stephane Hallegatte (World Bank), Ralph Ossa (UZH); moderated by Johanna Schiele (Deutsche Bank) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung1.html) |
+| 2 | **How Can Aviation Emissions Be Reduced Most Effectively?** | Katharina Michaelowa, Linde Warland and Andreas I. Mueller (all UZH); moderated by Bjarne Steffen (ETH Zurich) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung2.html) |
+| 3 | **Is Environmentalism a New Religion?** | Michael Coors (UZH), Achim Wambach (ZEW, University of Mannheim); moderated by Patrick Bernau (Frankfurter Allgemeine Sonntagszeitung) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung3.html) |
+| 4 | **Think Negative: Carbon Dioxide Removal and Carbon Offsets** | Johanna Puetz (BCG), Sophie Wenger (FOEN), Jan Wurzbacher (Climeworks); moderated by Lisa Mangertseder (DVNE, Carbon Removal Partners) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung4.html) |
+| 5 | **Riding down the Learning Curve for Clean Technologies** | Greg Nemet (University of Wisconsin-Madison), Alessio Terzi (University of Cambridge, Sciences Po); moderated by Florian Müller (ETH Zurich) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung5.html) |
+| 6 | **Field Experiments for Net Zero** | How randomized controlled trials can measure which climate interventions actually work | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung6.html) |
+| 7 | **The Power of Procurement** | Moderated by Olga Chiapinelli (Universitat de Barcelona, DIW Berlin, Berlin School of Economics) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung7.html) |
+| 8 | **Green Finance** | Debjani Bhattacharyya and Markus Leippold (both UZH), Scott Ryan (Investature); moderated by Nadine Strauss (UZH) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung8.html) |
+| 9 | **Greening Growth, Carbon Pricing, Carbon Dioxide Removal** | Closing session with Ottmar Edenhofer (PIK, MCC, TU Berlin) and J. Doyne Farmer (University of Oxford, Macrocosm) | [Recap](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung10.html) |
 
-**1. Clean Comparative Advantage: How Countries can benefit from Decarbonisation**
-Mit Laura Anadon (University of Cambridge), Stephane Hallegatte (World Bank) und Ralph Ossa (UZH), Moderation Johanna Schiele (Deutsche Bank). Thema waren Chancen und Grenzen von grünem Wachstum.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung1.html)
+The recaps on the UZH website include session descriptions, speaker profiles and in some cases video recordings and written summaries (in German).
 
-**2. Wie können Flugreise-Emissionen am effektivsten reduziert werden?**
-Mit Katharina Michaelowa, Linde Warland und Andreas I. Mueller (alle UZH), Moderation Bjarne Steffen (ETH). Im Zentrum standen konkrete Strategien zur Senkung der Emissionen.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung2.html)
-
-**3. Ist Umweltschutz eine neue Religion?**
-Mit Michael Coors (UZH) und Achim Wambach (ZEW, Universität Mannheim), Moderation Patrick Bernau (Frankfurter Allgemeine Sonntagszeitung).
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung3.html)
-
-**4. Think Negative, Carbon Dioxide Removal und Carbon Offset**
-Mit Johanna Puetz (BCG), Sophie Wenger (BAFU) und Jan Wurzbacher (Climeworks), Moderation Lisa Mangertseder (DVNE, Carbon Removal Partners). Es ging um die Rolle von Technologien zur CO2-Entnahme.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung4.html)
-
-**5. Riding down the Learning Curve for Clean Technologies**
-Mit Greg Nemet (University of Wisconsin-Madison) und Alessio Terzi (University of Cambridge, Sciences Po), Moderation Florian Müller (ETH Zürich). Diskutiert wurden Klimainnovationen als Teil grüner Wachstumsstrategien.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung5.html)
-
-**6. Field Experiments for Net Zero**
-Wie randomisierte kontrollierte Studien zeigen können, welche Klimamassnahmen tatsächlich wirken.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung6.html)
-
-**7. The Power of Procurement**
-Moderation Olga Chiapinelli (Universitat de Barcelona, DIW Berlin, Berlin School of Economics). Thema war, wie öffentliche Beschaffung Märkte für emissionsarme Produkte schaffen kann.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung7.html)
-
-**8. Green Finance**
-Mit Debjani Bhattacharyya und Markus Leippold (beide UZH) sowie Scott Ryan (Investature), Moderation Nadine Strauss (UZH).
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung8.html)
-
-**9. Greening Growth, Carbon Pricing, Carbon Dioxide Removal**
-Abschlusssitzung mit Ottmar Edenhofer (PIK, MCC, TU Berlin) und J. Doyne Farmer (University of Oxford, Macrocosm), die die zentralen Themen der Reihe zusammenführte.
-[Rückblick](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon/sitzung10.html)
-
-[Zur Übersichtsseite der Ringvorlesung an der UZH](https://www.sustainability.uzh.ch/de/forschung-lehre/lehre/beyondcarbon.html)
+[Lecture series on the UZH website](https://www.sustainability.uzh.ch/en/research-teaching/teaching/beyondcarbon.html)

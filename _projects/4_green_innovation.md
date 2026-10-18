@@ -1,9 +1,13 @@
 ---
 layout: page
 title: "Breaking Through in Green Innovation: How Do We Get There?"
-description: Konferenz mit drei Panels zu grüner Innovationspolitik, Berlin, 18. Juni 2024
+description: Conference with three panels on green innovation policy, Berlin, 18 June 2024
 importance: 4
 category: events
+panels:
+  - "Panel 1: Carbon Contracts for Difference: Catalysing a Decarbonised Future"
+  - "Panel 2: Decarbonising Cement: the Biggest Challenges and Answers"
+  - "Panel 3: Carbon Removal Technologies: the Race to Zero and Net Negative"
 ---
 
 An in-person conference in Berlin with three panels on how policy can foster innovation for the green transition. Opening remarks by Cornelia Woll, President of the Hertie School.
@@ -42,4 +46,4 @@ The first panel looked at carbon contracts for difference as a new policy tool, 
   </div>
 </div>
 
-[Zur Event-Seite](https://www.decarb.world/events/breaking-through-in-green-innovation-how-do-we-get-there)
+[Event page](https://www.decarb.world/events/breaking-through-in-green-innovation-how-do-we-get-there)
