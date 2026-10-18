@@ -43,7 +43,7 @@ lectures:
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1 row-cols-md-2">
   {% if category == "lectures" %}
     {% for lecture in page.lectures %}
       <div class="col">
