@@ -64,26 +64,32 @@ institutions:
 ---
 
 <style>
-  .teach-row { margin-top: 2.5rem; align-items: center; }
-  .teach-logo { display: flex; align-items: center; justify-content: center; min-height: 140px; }
-  .teach-logo img { max-width: 85%; max-height: 150px; object-fit: contain; }
-  .teach-logo .teach-name { font-size: 1.8rem; font-weight: 600; text-align: center; }
-  .teach-course { border-bottom: 1px solid var(--global-divider-color); padding: 0.9rem 0; }
-  .teach-course summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: flex-start; }
+  .teach-row { display: grid; grid-template-columns: 36% 1fr; gap: 2.5rem; align-items: start; margin-top: 3rem; }
+  .teach-logo { display: flex; align-items: center; justify-content: center; height: 120px; padding-top: 0.5rem; }
+  .teach-logo img { max-width: 100%; max-height: 90px; width: auto; height: auto; object-fit: contain; }
+  .teach-logo .teach-name { font-size: 1.6rem; font-weight: 600; text-align: center; }
+  .teach-courses { width: 100%; min-width: 0; }
+  .teach-course { display: block; width: 100%; border-bottom: 1px solid var(--global-divider-color); padding: 1rem 0; }
+  .teach-course summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; width: 100%; }
   .teach-course summary::-webkit-details-marker { display: none; }
-  .teach-course summary::after { content: "⌄"; font-size: 1.4rem; line-height: 1; margin-left: 1rem; transition: transform 0.2s; }
-  .teach-course[open] summary::after { transform: rotate(180deg); }
-  .teach-title { font-size: 1.25rem; font-weight: 600; color: var(--global-theme-color); margin: 0; }
-  .teach-term { margin: 0.3rem 0 0; }
+  .teach-course summary::marker { content: ""; }
+  .teach-course summary::after { content: ""; flex: 0 0 auto; width: 0.6rem; height: 0.6rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.2s; margin-right: 0.4rem; }
+  .teach-course[open] summary::after { transform: rotate(-135deg); }
+  .teach-title { font-size: 1.2rem; font-weight: 600; color: var(--global-theme-color); margin: 0; }
+  .teach-term { margin: 0.25rem 0 0; }
   .teach-body { margin-top: 0.8rem; }
   .teach-label { font-weight: 600; color: var(--global-theme-color); letter-spacing: 0.03em; margin-bottom: 0.6rem; }
+  @media (max-width: 768px) {
+    .teach-row { grid-template-columns: 1fr; gap: 0.5rem; }
+    .teach-logo { height: 90px; justify-content: flex-start; }
+  }
 </style>
 
 {{ page.intro | markdownify }}
 
 {% for inst in page.institutions %}
-<div class="row teach-row">
-  <div class="col-md-5 teach-logo">
+<div class="teach-row">
+  <div class="teach-logo">
     {% assign logo_file = nil %}
     {% if inst.logo %}{% assign logo_file = site.static_files | where: "path", inst.logo | first %}{% endif %}
     {% if logo_file %}
@@ -92,7 +98,7 @@ institutions:
       <div class="teach-name">{{ inst.name }}</div>
     {% endif %}
   </div>
-  <div class="col-md-7">
+  <div class="teach-courses">
     {% for c in inst.courses %}
     <details class="teach-course">
       <summary>
