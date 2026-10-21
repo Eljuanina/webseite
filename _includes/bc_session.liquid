@@ -1,0 +1,29 @@
+{% assign src = page.preview %}{% unless src contains '://' %}{% assign src = src | relative_url %}{% endunless %}
+<img src="{{ src }}" alt="{{ page.title }}" class="img-fluid rounded z-depth-1" style="width:100%;margin-bottom:1rem">
+
+<p style="font-style:italic">Lecture {{ page.session }} of the lecture series <a href="{{ '/projects/beyond-carbon/' | relative_url }}">Beyond Carbon: Debating the Future</a>, University of Zurich, spring semester 2026{% if page.language %} · held in {{ page.language }}{% endif %}</p>
+
+{% if page.subtitle and page.subtitle != page.title %}<h2>{{ page.subtitle }}</h2>{% endif %}
+
+<h3>Event description</h3>
+{{ page.long_description | markdownify }}
+
+<h3>Speakers</h3>
+<ul>
+{% for s in page.speakers %}<li><strong>{{ s.name }}</strong>{% if s.affiliation %}, {{ s.affiliation }}{% endif %}</li>
+{% endfor %}</ul>
+{% if page.moderators %}
+<h3>Moderation</h3>
+<ul>
+{% for s in page.moderators %}<li><strong>{{ s.name }}</strong>{% if s.affiliation %}, {{ s.affiliation }}{% endif %}</li>
+{% endfor %}</ul>
+{% endif %}
+
+<h3>Recording</h3>
+{% if page.video %}
+<div class="row mt-3"><div class="col-sm mt-3 mt-md-0">
+{% include video.liquid path=page.video class="img-fluid rounded z-depth-1" %}
+</div></div>
+{% else %}
+<p>The recording, the written summary and short profiles of all guests are available in the <a href="{{ page.uzh_url }}" target="_blank">review of this lecture on the UZH website</a>.</p>
+{% endif %}
