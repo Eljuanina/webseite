@@ -6,5 +6,6 @@ description: Customer story on how the Federal Institute for Geosciences and Nat
 category: policy
 importance: 3
 source: Tableau customer story
+preview: /assets/img/policy/bgr-tableau.jpg
 redirect: https://www.tableau.com/solutions/customer/bgr-opens-local-value-creation-potential-african-copper-and-cobalt-mining-using
 ---

@@ -15,7 +15,8 @@ nav_order: 4
       <a href="{{ project.redirect }}" target="_blank">
         <div class="card h-100 hoverable">
           {% if project.preview %}
-            <img src="{{ project.preview }}" alt="{{ project.title }}" class="card-img-top" style="width:100%;aspect-ratio:16/9;object-fit:cover">
+            {% assign src = project.preview %}{% unless src contains '://' %}{% assign src = src | relative_url %}{% endunless %}
+            <img src="{{ src }}" alt="{{ project.title }}" class="card-img-top" style="width:100%;aspect-ratio:16/9;object-fit:cover">
           {% endif %}
           <div class="card-body">
             <h2 class="card-title">{{ project.title }}</h2>
