@@ -6,6 +6,8 @@ description: Events and lecture series organized with the d\carb future economy 
 nav: true
 nav_order: 3
 display_categories: [events, lectures]
+# older event files that are replaced by the newer cards below (hidden from the overview)
+events_with_videos: [1_evidence_based_policy, 2_wahl_spezial, 3_critical_minerals, 4_green_innovation, 5_climate_resilient]
 ---
 
 <div class="projects">
@@ -18,11 +20,12 @@ display_categories: [events, lectures]
   <p>All nine sessions of the lecture series <a href="{{ '/projects/beyond-carbon/' | relative_url }}"><strong>Beyond Carbon: Debating the Future</strong></a>, University of Zurich, spring semester 2026.</p>
   {% assign sorted_projects = site.projects | where: "category", "lecture-session" | sort: "importance" %}
   {% else %}
-  {% assign sorted_projects = site.projects | where: "category", category | sort: "importance" %}
+  {% assign sorted_projects = site.projects | where_exp: "p", "p.category == 'events' or p.category == 'event-session'" | sort: "importance" %}
   {% endif %}
 
   <div class="row row-cols-1 row-cols-md-2">
   {% for project in sorted_projects %}
+    {% if page.events_with_videos contains project.slug %}{% continue %}{% endif %}
     <div class="col mb-4">
       <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
         <div class="card h-100 hoverable">
