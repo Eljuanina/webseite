@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ministries on the Move
-subtitle: 'Session III: Putting Things into Practice'
+title: 'Evidence-Based Policy-Making in Climate, Health, and Innovation'
+subtitle: 'Session 3: Putting Things into Practice'
 description: How German ministries and agencies are putting evidence-based practices into action.
 category: event-session
 importance: 1.4

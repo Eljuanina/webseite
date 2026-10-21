@@ -4,7 +4,8 @@
 {% include video.liquid path=page.video class="img-fluid rounded z-depth-1" %}
 </div></div>
 {% elsif page.preview %}
-<img src="{{ page.preview }}" alt="{{ page.title }}" class="img-fluid rounded z-depth-1" style="width:100%;margin-bottom:1rem">
+{% assign src = page.preview %}{% unless src contains '://' %}{% assign src = src | relative_url %}{% endunless %}
+<img src="{{ src }}" alt="{{ page.title }}" class="img-fluid rounded z-depth-1" style="width:100%;margin-bottom:1rem">
 {% endif %}
 
 <p style="font-style:italic">{% if page.parent %}Part of {% if parent %}<a href="{{ parent.url | relative_url }}">{{ parent.title }}</a>{% else %}{{ page.event_title }}{% endif %}{% if page.event_info %}, {{ page.event_info }}{% endif %}{% else %}{{ page.event_info }}{% endif %}</p>

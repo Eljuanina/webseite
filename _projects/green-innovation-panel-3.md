@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Carbon Removal Technologies
-subtitle: 'Panel 3: the Race to Zero and Net Negative'
+title: 'Breaking Through in Green Innovation: How Do We Get There?'
+subtitle: 'Panel 3: Carbon Removal Technologies: the Race to Zero and Net Negative'
 description: What it takes to make carbon removal technologies cost-competitive.
 category: event-session
 importance: 4.4

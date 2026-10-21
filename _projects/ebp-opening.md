@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Welcome & Opening
-subtitle: Welcome and Opening Remarks
+title: 'Evidence-Based Policy-Making in Climate, Health, and Innovation'
+subtitle: 'Welcome and Opening Remarks'
 description: Opening of the workshop on how experimental evidence can help governments design better policies.
 category: event-session
 importance: 1.1

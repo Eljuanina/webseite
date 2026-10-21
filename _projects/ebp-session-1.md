@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Experimental Innovation Policy
-subtitle: 'Session I: Experimental Innovation Policy'
+title: 'Evidence-Based Policy-Making in Climate, Health, and Innovation'
+subtitle: 'Session 1: Experimental Innovation Policy'
 description: How randomized trials and causal analysis can make green innovation policies more effective.
 category: event-session
 importance: 1.2

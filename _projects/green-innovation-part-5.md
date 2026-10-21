@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Further Recording
-subtitle: Breaking Through in Green Innovation
+title: 'Breaking Through in Green Innovation: How Do We Get There?'
+subtitle: 'Further Recording'
 description: Further recording from the conference.
 category: event-session
 importance: 4.5

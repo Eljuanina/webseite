@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Decarbonising Cement
-subtitle: 'Panel 2: the Biggest Challenges and Answers'
+title: 'Breaking Through in Green Innovation: How Do We Get There?'
+subtitle: 'Panel 2: Decarbonising Cement: the Biggest Challenges and Answers'
 description: What it will take to make cement production carbon-free.
 category: event-session
 importance: 4.3

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Evidence in Health and Science
-subtitle: 'Session II: Evidence-Based Healthcare and Science Policy'
+title: 'Evidence-Based Policy-Making in Climate, Health, and Innovation'
+subtitle: 'Session 2: Evidence-Based Healthcare and Science Policy'
 description: Best practices for evaluating impact in science and health, and what energy and climate policy can learn from them.
 category: event-session
 importance: 1.3

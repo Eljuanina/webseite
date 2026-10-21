@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Opening Remarks
-subtitle: 'Breaking Through in Green Innovation: Opening'
+title: 'Breaking Through in Green Innovation: How Do We Get There?'
+subtitle: 'Opening Remarks'
 description: Opening of the conference on fostering innovation for the green transition through policy.
 category: event-session
 importance: 4.1

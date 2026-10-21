@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Carbon Contracts for Difference
-subtitle: 'Panel 1: Catalysing a Decarbonised Future'
+title: 'Breaking Through in Green Innovation: How Do We Get There?'
+subtitle: 'Panel 1: Carbon Contracts for Difference: Catalysing a Decarbonised Future'
 description: Carbon contracts for difference as a new policy tool for the green transition.
 category: event-session
 importance: 4.2
