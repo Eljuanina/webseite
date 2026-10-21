@@ -29,5 +29,5 @@
 {% endif %}
 
 {% if page.original_url %}
-<p>More on the <a href="{{ page.original_url }}" target="_blank">event page of the d\carb future economy forum</a>.</p>
+<p>More on the <a href="{{ page.original_url }}" target="_blank">{{ page.original_label | default: "event page of the d\carb future economy forum" }}</a>.</p>
 {% endif %}
