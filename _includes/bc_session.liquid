@@ -19,11 +19,11 @@
 {% endfor %}</ul>
 {% endif %}
 
+{% if page.video and page.video != "" %}
 <h3>Recording</h3>
-{% if page.video %}
 <div class="row mt-3"><div class="col-sm mt-3 mt-md-0">
 {% include video.liquid path=page.video class="img-fluid rounded z-depth-1" %}
 </div></div>
-{% else %}
-<p>The recording, the written summary and short profiles of all guests are available in the <a href="{{ page.uzh_url }}" target="_blank">review of this lecture on the UZH website</a>.</p>
 {% endif %}
+
+<p>Speaker profiles and further details are available in the <a href="{{ page.uzh_url }}" target="_blank">review of this lecture on the UZH website</a>.</p>
