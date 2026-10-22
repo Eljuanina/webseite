@@ -12,6 +12,7 @@ intro: >-
 institutions:
   - name: University of Zurich
     logo: /assets/img/teaching/uzh.png
+    logo_dark: /assets/img/teaching/uzh2.jpg
     courses:
       - title: "Evidence Data Lab: Experimental Approaches to Campus Decarbonization"
         term: Spring 2025 and Spring 2026
@@ -79,6 +80,13 @@ institutions:
   .teach-row { display: grid; grid-template-columns: 36% 1fr; gap: 2.5rem; align-items: start; margin-top: 3rem; }
   .teach-logo { display: flex; align-items: center; justify-content: center; height: 120px; padding-top: 0.5rem; }
   .teach-logo img { max-width: 100%; max-height: 90px; width: auto; height: auto; object-fit: contain; }
+  .teach-logo img.logo-dark { display: none; }
+  html[data-theme="dark"] .teach-logo img.logo-light { display: none; }
+  html[data-theme="dark"] .teach-logo img.logo-dark { display: block; }
+  @media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .teach-logo img.logo-light { display: none; }
+    html:not([data-theme="light"]) .teach-logo img.logo-dark { display: block; }
+  }
   .teach-logo .teach-name { font-size: 1.6rem; font-weight: 600; text-align: center; }
   .teach-courses { width: 100%; min-width: 0; }
   .teach-course { display: block; width: 100%; border-bottom: 1px solid var(--global-divider-color); padding: 1rem 0; }
@@ -104,8 +112,15 @@ institutions:
   <div class="teach-logo">
     {% assign logo_file = nil %}
     {% if inst.logo %}{% assign logo_file = site.static_files | where: "path", inst.logo | first %}{% endif %}
+    {% assign logo_dark_file = nil %}
+    {% if inst.logo_dark %}{% assign logo_dark_file = site.static_files | where: "path", inst.logo_dark | first %}{% endif %}
     {% if logo_file %}
-      <img src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}">
+      {% if logo_dark_file %}
+        <img class="logo-light" src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}">
+        <img class="logo-dark" src="{{ inst.logo_dark | relative_url }}" alt="{{ inst.name }}">
+      {% else %}
+        <img src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}">
+      {% endif %}
     {% else %}
       <div class="teach-name">{{ inst.name }}</div>
     {% endif %}
