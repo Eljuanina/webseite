@@ -7,4 +7,5 @@ category: media
 importance: 1
 source: UZH News, 28 January 2025 · Interview by Roger Nickl
 redirect: https://www.news.uzh.ch/en/articles/news/2025/interview-handler.html
+preview: assets/img/media-uzh-decarb-preview.png
 ---
