@@ -34,6 +34,18 @@ institutions:
   - name: ETH Zurich
     logo: /assets/img/teaching/eth.png
     courses:
+      - title: "Natural Resource Governance and Energy Transition: Policies and Practice"
+        term: Short Course, NADEL Center for Development and Cooperation & NRGI
+        url: https://www.linkedin.com/school/4923/
+        description: >-
+          Advanced multi-stakeholder course jointly offered by the NADEL Center for Development and Cooperation
+          at ETH Zurich and the Natural Resource Governance Institute (NRGI). The course introduces analytical
+          and practical tools to improve governance of natural resources within the context of the energy transition
+          and enhances the understanding of the impacts politics and power have on policy outcomes. Over several months,
+          participants followed interactive in-person lectures, group discussions and online self-paced learning materials.
+          Main topics include energy transition challenges for fossil fuel and critical mineral producing countries,
+          the political economy of natural resource extraction, environmental and social impacts of extraction,
+          diversification and linkages building, resource revenue management, and fiscal regime design and tax negotiation.
       - title: Executive Training on Energy Policy
         term: 2023 to 2025
         description: >-
