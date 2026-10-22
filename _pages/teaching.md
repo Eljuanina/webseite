@@ -102,9 +102,7 @@ institutions:
 {% for inst in page.institutions %}
 <div class="teach-row">
   <div class="teach-logo">
-    {% assign logo_file = nil %}
-    {% if inst.logo %}{% assign logo_file = site.static_files | where: "path", inst.logo | first %}{% endif %}
-    {% if logo_file %}
+    {% if inst.logo %}
       <img src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}">
     {% else %}
       <div class="teach-name">{{ inst.name }}</div>
