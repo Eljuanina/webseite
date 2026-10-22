@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
-nav_order: 6
+nav_order: 7
 intro: >-
   Nils teaches courses on climate economics, energy policy and experimental methods at the *University of Zurich*,
   and has taught in MBA and executive education programmes at *HEC Paris*, *ETH Zurich* and the *Hertie School* in Berlin.
