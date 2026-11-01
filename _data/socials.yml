@@ -5,6 +5,7 @@ cv_pdf: /assets/pdf/CV_Handler.pdf # path to your CV PDF file
 email: nils.handler@uzh.ch
 linkedin_username: nils-handler-34b84567
 research_gate_profile: Nils-Handler
+google_scholar_userid: 4mNccKgAAAAJ
 uzh_team:
   logo: https://www.uzh.ch/favicon.ico
   title: UZH Team
