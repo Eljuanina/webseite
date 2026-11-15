@@ -1,1 +1,16 @@
-.social a i { font-size: 0.85rem; }
+/*
+ * Local Tailwind entry – site-specific overrides only.
+ * Base Tailwind utilities are injected by the al_folio_core gem.
+ *
+ * Reduce the size of the social / CV / mail icons in the about-page
+ * sidebar and footer. Font Awesome + Academicons both use font-size,
+ * so targeting the <i> / <svg> children covers all icon families.
+ */
+
+.contact-icons a i,
+.contact-icons a svg,
+.social a i,
+.social a svg,
+.social a .icon {
+  font-size: 0.88rem;
+}

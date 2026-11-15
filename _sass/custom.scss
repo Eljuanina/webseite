@@ -1,0 +1,14 @@
+// ----------------------------------------------------------------
+// Local overrides – social / CV / mail icon size
+// al-folio renders these inside .contact-icons and .social;
+// Font Awesome and Academicons both size via font-size,
+// so a single override here covers all of them.
+// ----------------------------------------------------------------
+
+.contact-icons a i,
+.contact-icons a svg,
+.social a i,
+.social a svg,
+.social a .icon {
+  font-size: 0.88rem;
+}
