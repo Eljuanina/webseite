@@ -6,5 +6,5 @@ description: Achieving climate neutrality and energy independence will require t
 category: policy
 importance: 4
 source: d\carb future economy forum, Berlin, 2024 · 4 pages · via DIW Berlin
-redirect: https://www.diw.de/de/diw_01.c.899881.de/publikationen/sonstige_aufsaetze/2024_0000/green_innovation_policies.html
+redirect: https://www.diw.de/documents/publikationen/73/diw_01.c.899872.de/dcarb_2024_event_summaries_green_innovation.pdf
 ---

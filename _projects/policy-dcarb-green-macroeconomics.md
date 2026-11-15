@@ -6,5 +6,5 @@ description: 'Making macroeconomics fit for a climate-neutral future: The Europe
 category: policy
 importance: 6
 source: d\carb future economy forum, Berlin, 2024 · 6 pages · via DIW Berlin
-redirect: https://www.diw.de/de/diw_01.c.899883.de/publikationen/sonstige_aufsaetze/2024_0000/green_macroeconomics__time_for_a_new_paradigm.html
+redirect: https://www.diw.de/documents/publikationen/73/diw_01.c.899874.de/dcarb_2024_event_summaries_green_macro.pdf
 ---
