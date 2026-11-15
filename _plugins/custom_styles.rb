@@ -11,7 +11,7 @@ CUSTOM_CSS = <<~CSS
     .contact-icons svg,
     .social i,
     .social svg {
-      font-size: 0.88rem !important;
+      font-size: 1.05rem !important;
     }
   </style>
 CSS
