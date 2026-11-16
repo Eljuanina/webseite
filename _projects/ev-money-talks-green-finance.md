@@ -7,7 +7,7 @@ category: events
 importance: 12
 event_info: 25 May 2022, webinar
 permalink: /projects/money-talks-green-finance/
-preview: https://images.squarespace-cdn.com/content/v1/6006f1c12f57da1e2e75d884/1653129610703-19HEDUUS8OJW9HHJYR9R/green_finance_portraits.png
+preview: https://images.squarespace-cdn.com/content/v1/6006f1c12f57da1e2e75d884/605cf5adc04b237dabc5d653/6274dfa1bb62017be6b4b16f/1670514058517/green_finance_portraits.png
 long_description: Restructuring the economy to fight global warming requires massive investment, and there is a large green investment gap. The webinar discussed how finance can best play its role in driving change and avoiding greenwashing, looking at risk and asset pricing, time horizons and information, and the barriers to change.
 speakers:
 - name: Tatjana Puhan
