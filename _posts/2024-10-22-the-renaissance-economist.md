@@ -6,5 +6,7 @@ description: Guest post on BSE Voice about meeting Daron Acemoglu at MIT, green 
 tags: [green-growth, bse-voice]
 categories: [external-posts]
 read_time: 7
+thumbnail: assets/img/acemoglu.jpeg
+og_image: assets/img/cemoglu.jpeg
 redirect: https://thevoice.bse.eu/2024/10/22/the-renaissance-economist-research-revelations-from-a-rockstar-of-mine/
 ---
