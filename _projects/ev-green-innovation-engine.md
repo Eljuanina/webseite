@@ -10,8 +10,10 @@ permalink: /projects/green-innovation-engine/
 preview: https://images.squarespace-cdn.com/content/v1/6006f1c12f57da1e2e75d884/1693419792613-KGV40V42290M0K2UUZC9/Speaker+drop+2.png
 long_description: Technological innovation and better management can deliver growth that is both inclusive and compatible with tackling the climate emergency. The talk focused on innovation and its drivers, on why the biggest productivity gains require radical changes in how we work, and on how green R&D incentives can complement tools such as carbon taxes to reach a climate-neutral industry much faster. Part of a full-day workshop on green industrial policy.
 speakers:
+- name: Suganda Srivastav
+  affiliation: Oxford Smith School (introduction)
 - name: Prof. Ufuk Akcigit
-  affiliation: University of Chicago
+  affiliation: University of Chicago (keynote)
 original_url: https://www.decarb.world/events/green-innovation-the-most-powerful-engine
 ---
 
