@@ -10,7 +10,24 @@
   .contact-icons svg,
   .social i,
   .social svg {
-    font-size: 2rem !important;
+    font-size: 1.05rem !important;
+  }
+
+  /* Scrollable news/announcements box */
+  .announcements {
+    max-height: 420px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+  }
+
+  /* Clickable publication titles */
+  .publications .title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .publications .title a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 </style> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/webseite/"> <span class="font-weight-bold">Nils</span> Handler </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/webseite/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/projects/">events </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/policy/">policy </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/media/">media </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/honors/">honors </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/webseite/news/">news </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <i class="fa-solid fa-tag fa-sm"></i> crime</h1> <p class="post-description">an archive of books in this category</p> </header> <article class="archive"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row">Aug 23, 2024</th> <td> <a class="post-link" href="/webseite/books/the_godfather/">The Godfather</a> </td> </tr> </table> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Nils Handler. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
@@ -547,4 +564,32 @@ ninja.data = [{
       },
     },];
 
-</script> <script src="/webseite/assets/al_search/js/shortcut-key.js"></script> </body> </html>
+</script> <script src="/webseite/assets/al_search/js/shortcut-key.js"></script> <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.publications .title').forEach(function (titleEl) {
+      // skip if the title already contains a link
+      if (titleEl.querySelector('a')) return;
+
+      var container = titleEl.closest('li') || titleEl.closest('article') || titleEl.parentElement;
+      if (!container) return;
+
+      // pick the best URL: HTML > Website > DOI > PDF
+      var priority = ['HTML', 'Website', 'DOI', 'PDF'];
+      var links = Array.from(container.querySelectorAll('a[href]'));
+      var target = null;
+      for (var i = 0; i < priority.length && !target; i++) {
+        target = links.find(function (a) {
+          return a.textContent.trim() === priority[i];
+        });
+      }
+      if (!target) return;
+
+      var wrapper = document.createElement('a');
+      wrapper.href = target.getAttribute('href');
+      wrapper.target = '_blank';
+      wrapper.rel = 'noopener noreferrer';
+      while (titleEl.firstChild) wrapper.appendChild(titleEl.firstChild);
+      titleEl.appendChild(wrapper);
+    });
+  });
+</script> </body> </html>
