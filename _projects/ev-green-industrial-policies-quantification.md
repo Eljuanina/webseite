@@ -9,6 +9,20 @@ event_info: 22 June 2023, Hertie School Berlin
 permalink: /projects/green-industrial-policies-quantification/
 preview: https://images.squarespace-cdn.com/content/v1/6006f1c12f57da1e2e75d884/1693419886253-TFB7X95E4WX9CPUJ88G2/Speaker+drop+3.png
 long_description: The OECD presented the analytical results of its Quantifying Industrial Strategies (QuIS) project, which uses a new methodological framework to inventory industrial policy expenditures in a harmonised way. This allows country-specific analysis and cross-country benchmarking, released publicly at the conference. Part of a full-day workshop on green industrial policy.
+speakers:
+- name: Chiara Criscuolo
+  affiliation: OECD (presentation)
+- name: Katrin Kamin
+  affiliation: Kiel Institute for the World Economy (discussant)
+- name: Bernhard Kluttig
+  affiliation: German Federal Ministry for Economic Affairs and Climate Action (discussant)
+- name: Philip A. Luck
+  affiliation: US Department of State (discussant)
+- name: Josefina Monteagudo
+  affiliation: European Commission (discussant)
+moderators:
+- name: Cathryn Clüver Ashbrook
+  affiliation: Bertelsmann Foundation
 original_url: https://www.decarb.world/events/driving-low-carbon-innovation-for-climate-neutrality-efw63
 ---
 
