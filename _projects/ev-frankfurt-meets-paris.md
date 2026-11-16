@@ -9,6 +9,18 @@ event_info: 1 February 2023, online
 permalink: /projects/frankfurt-meets-paris/
 preview: https://images.squarespace-cdn.com/content/v1/6006f1c12f57da1e2e75d884/1673461060433-BD9DPMLKCYHGD07LUI42/green_monetary_portraits.png
 long_description: Which tools does the European Central Bank aim to use to tackle climate change, and how could it support green investment despite high inflation? Leading experts discussed the role of monetary policy in the green transition.
+speakers:
+- name: Thekla von Bülow
+  affiliation: Aurora Energy Research, Central Europe
+- name: Emanuele Campiglio
+  affiliation: University of Bologna
+- name: Michael Bauer
+  affiliation: Universität Hamburg
+moderators:
+- name: Anna-Maria Göth
+  affiliation: Humboldt-Universität zu Berlin
+- name: Gökhan Ider
+  affiliation: DIW Berlin & Freie Universität Berlin
 original_url: https://www.decarb.world/events/green-monetary
 ---
 
