@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://eljuanina.github.io/webseite/sitemap.xml
+Sitemap: https://Nilitium.github.io/webseite/sitemap.xml
