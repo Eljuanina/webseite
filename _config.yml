@@ -344,7 +344,7 @@ display_categories: [] # these categories will be displayed on the front page of
 
 scholar:
   last_name: [Handler]
-  first_name: [Nils, N.]
+  first_name: [Nils,N.]
 
   style: apa
   locale: en
