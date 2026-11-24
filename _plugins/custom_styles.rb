@@ -11,7 +11,7 @@ CUSTOM_CSS = <<~CSS
     .contact-icons svg,
     .social i,
     .social svg {
-      font-size: 1.05rem !important;
+      font-size: 1.4rem !important;
     }
 
     /* Scrollable news/announcements box: fixed height shows ~5 items */
